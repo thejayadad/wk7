@@ -7,7 +7,7 @@ public class Week6 {
         Scanner scan = new Scanner(System.in);
         try {
             userAnswer();
-            System.out.println("Success!");
+            System.out.println("Success");
         } catch (Exception e) {
             System.out.println("Failure something went wrong");
         }
@@ -18,6 +18,8 @@ public class Week6 {
         Scanner scan = new Scanner(System.in);
         String itemOne, itemTwo, itemThree, result;
 
+
+       if(true){
         System.out.println("Please enter your favorite food ");
         itemOne = scan.nextLine();
         if(itemOne == null || itemOne.isBlank()){
@@ -39,6 +41,7 @@ public class Week6 {
         System.out.println("Favorite Food " + itemOne);
         System.out.println("Favorite Drink " + itemTwo);
         result = "Success";
+       }
         return result;
 
     }
